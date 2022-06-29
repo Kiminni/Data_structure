@@ -86,6 +86,7 @@ void remove(void)
     char buf[BUFFER_MAX];
     
     index = search(buf) //추후 추가!
+    
     if (index = -1)
     {
         printf("No Person named %s exists",buf);
