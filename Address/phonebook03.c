@@ -20,8 +20,8 @@ int read_line(char str[], int limit);
 int search(char *name);
 
 char delim[] = " ";
-char ** names; //char * 타입의 배열 이름이므로 char ** 타입의 변수(저장하는 애들의 타입이 char *)
-char ** numbers;
+char** names; //char * 타입의 배열 이름이므로 char ** 타입의 변수(저장하는 애들의 타입이 char *)
+char** numbers;
 
 int capacity = INIT_CAPACITY;
 int n = 0;

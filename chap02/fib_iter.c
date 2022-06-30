@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int fib_iter(int n)
 {
     if (n == 0) return 0;
@@ -14,3 +16,13 @@ int fib_iter(int n)
     }
     return result;
 } 
+
+int main()
+{
+    int n,result;
+    scanf("%d",&n);
+    result = fib_iter(n);
+    printf("%d",result);
+}
+
+
